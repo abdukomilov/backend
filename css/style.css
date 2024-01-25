@@ -1,0 +1,13 @@
+@import url(/css/font.css);
+input[type="checkbox"] {
+  display: none;
+}
+
+
+input[type="checkbox"]:checked ~ div {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background: #C9F31D !important;
+}
